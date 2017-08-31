@@ -56,3 +56,9 @@
 .btn-warning: hover {
   background-color: #D34326;
 }
+
+/*Our story styles*/
+.year-text {
+  position: absolute;
+  z-index: 0;
+}
