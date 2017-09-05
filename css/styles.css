@@ -1,3 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400,300);
+/* UNIVERSAL */
+* {
+  transition-duration: 0.2s;
+}
+.min-height {
+  min-height: 600px;
+}
+.primary-font {
+  font-family: 'Lobster', serif;
+}
+.secondary-font {
+  font-family: 'Raleway', Sans-Serif;
+}
+.white-text {
+  color: #FFFFFF;
+}
+.orange-text {
+  color: #F8512F;
+}
+.thin-text {
+  font-weight: 300;
+}
+.thick-text {
+  font-weight: 700;
+}
+.orange-bg {
+  background-color: #F8512F;
+}
+
+
 /* Nav Bar styles*/
 .navbar-inverse {
     background-color: transparent;
@@ -58,7 +90,62 @@
 }
 
 /*Our story styles*/
-.year-text {
+
+#our_story .row{
+  margin-top: 30px;
+}
+
+#our_story h1 {
+  font-size: 6em;
+  margin-top: 0;
+  text-shadow: 1px 1px 2px #515151;
+}
+
+#our_story h3 {
+  font-size: 2 em;
+  margin-top: 0;
+}
+
+.story-year {
+  padding: 0px 50px;
+  font-family: "Playfair Display", serif;
+  font-size: 200px;
+  position: absolute;
+  z-index: -1;
+  color: rgba(149, 147, 147, 0.2);
+
+}
+/*.year-text {
   position: absolute;
   z-index: 0;
+}*/
+
+/* REVIEW */
+
+#review {
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#review .center {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.review-container {
+  padding: 10px 15px;
+  background-color: rgba(20,20,20,0.6);
+  border-radius: 4px;
+}
+
+.review-container h1 {
+  font-size: 5em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+.review-container p {
+  font-size: 2em;
+  text-shadow: 1px 1px 5px #0a0a0a;
 }
